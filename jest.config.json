@@ -1,0 +1,24 @@
+{
+  "setupFiles": [
+    "<rootDir>/.jest/register-context.js"
+  ],
+  "snapshotSerializers": [
+    "enzyme-to-json/serializer"
+  ],
+  "moduleDirectories": [
+    "node_modules",
+    "src"
+  ],
+  "transform": {
+    "\\.[jt]sx?$": "babel-jest"
+  },
+  "testMatch": [
+    "**/*spec.(jsx|js)"
+  ],
+  "testEnvironment": "jsdom",
+  "moduleFileExtensions": [
+    "jsx",
+    "js",
+    "json"
+  ]
+}
